@@ -1,8 +1,8 @@
 Asistencia Octubre - Python
 
----------------------------------------
+#######################################
 Alumno/a : Agustina Castro
----------------------------------------
+#######################################
 
 class Cubo:
     """
@@ -11,6 +11,7 @@ class Cubo:
     volumen = ancho * altura * profundidad
     que el usuario ingrese los valores.
     """
+    
     def __init__(self, ancho, altura, profundidad):
         self.ancho = ancho
         self.altura = altura
@@ -26,5 +27,5 @@ profundidad = int(input("Digite la profundidad del cubo: "))
 cubo1 = Cubo(ancho, altura, profundidad)
 print(f"El volumen del cubo es: {cubo1.calcular_volumen()}")
 
----------------------------------------
+#######################################
 
