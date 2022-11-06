@@ -119,3 +119,4 @@ print(auto)
 # Tercer objeto, pero de la clase Bicicleta
 bici = Bicicleta('Negro', 2, 'Montaña')
 print(bici)
+#######################################
