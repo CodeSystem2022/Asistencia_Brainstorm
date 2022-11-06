@@ -59,7 +59,7 @@ print(f'El area del rectangulo es: {rectangulo1.calcular_area()}')
 Asistencia Octubre - Python
 
 #######################################
-Alumno/a: Mansilla Jimena
+Alumno/a: Jimena Mansilla
 #######################################
 class Vehiculo:
     '''
