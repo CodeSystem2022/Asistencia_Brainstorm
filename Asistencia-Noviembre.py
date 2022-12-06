@@ -1,4 +1,4 @@
-Asistencia Octubre - Python
+Asistencia Noviembre - Python
 
 #######################################
 Alumno/a : Agustina Castro
