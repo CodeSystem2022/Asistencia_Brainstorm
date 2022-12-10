@@ -248,3 +248,36 @@ print(auto)
 # Tercer objeto, el ultimo de la clase Bicicleta
 bici = Bicicleta('Azul', 2, 'Urbana')
 print(bici)
+#####################################
+
+Alumno  /  a : García  Fernandoclass persona:
+    def __init__(self ,nombre ,edad ):
+        self.nombre = nombre
+        self.edad = edad
+
+class Empleado(persona): # Esta clase es hija de la clase Persona
+    def __init__(self , nombre , edad , sueldo):
+        super(). __init__(nombre , edad)
+        self.sueldo = sueldo
+
+empleado1 = Empleado( "Ariel" , 41, 75000)
+print (empleado1)
+print(empleado1.nombre)
+print(empleado1.edad)
+print(empleado1.sueldo)
+    class persona:
+    def __init__(self ,nombre ,edad ):
+        self.nombre = nombre
+        self.edad = edad
+
+class Empleado(persona): # Esta clase es hija de la clase Persona
+    def __init__(self , nombre , edad , sueldo):
+        super(). __init__(nombre , edad)
+        self.sueldo = sueldo
+
+empleado1 = Empleado( "Ariel" , 41, 75000)
+print (empleado1)
+print(empleado1.nombre)
+print(empleado1.edad)
+print(empleado1.sueldo)
+###################################                                                                      
