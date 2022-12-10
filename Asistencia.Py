@@ -60,6 +60,14 @@ Asistencia Octubre - Python
 
 #######################################
 Alumno/a: Jimena Mansilla
+#######################################o
+class Vehiculo:
+    '''
+    Definir una clase padre llamada Vehiculo y dos clases hijas llamadas
+Asistencia Octubre - Python
+
+#######################################
+Alumno/a: Jimena Mansilla
 #######################################
 class Vehiculo:
     '''
@@ -113,10 +121,23 @@ vehiculo = Vehiculo('Rojo', 4)
 print(vehiculo)
 
 # Segundo objeto, pero ahora de la clase Auto
-auto = Auto('Blanco', 4, 100)
+auto = Auto('Blanco', 4, 
 print(auto)
 
 # Tercer objeto, pero de la clase Bicicleta
 bici = Bicicleta('Negro', 2, 'Montaña')
 print(bici)
 #######################################
+
+Alumno/a: Fernando Garcia
+#######################################o
+# Ejercicio 5: Factorial de un numero positivo
+# Hacer un programa para calcular el factorial de un numero positivo
+numero = int(input('Digite un numero'))
+while numero < 0: #mientras el numero sea negativo
+    print('Error -> El numero tiene que ser positivo')
+    numero = int(input('Digite un numero'))
+factorial = 1 # variable para calcular el factorial
+for i in range(1,numero+1):
+    factorial *= i
+print(f'\nEl factorial del numero {numero} positivo ingresado es: {factorial}')
